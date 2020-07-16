@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form method="POST" action="/users">
+        <label for="">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+        <label for="">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+        <label for="">Mail:</label>
+        <input type="text" name="mail" id="mail">
+        <br>
+        <label for="">Contraseña:</label>
+        <input type="password" name="contrasenia" id="contrasenia">
+        <br>
+        <label for="">Repetir Contraseña:</label>
+        <input type="password" name="contrasenia2" id="contrasenia2">
+        <br>
+        <label for="">Avatar</label>
+        <input type="file" name="filename" id="filename">
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
